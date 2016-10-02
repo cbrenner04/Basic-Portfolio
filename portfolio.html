@@ -4,82 +4,104 @@
 	<head>
 
 		<title>Basic-Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 	</head>
 
 	<body>
 	
 		<!-- Navigation Bar. Includes header (brand) and navigation -->
-		<nav>
+		<nav class="navbar">
 
 			<header>
-				<h1>Christopher J Brenner</h1>
+				<h1 id="brand">Christopher J Brenner</h1>
 			</header>
 
-			<nav>
-				<div>
-					<a href="index.html">About</a>
-				</div>
+			<nav class="navigation">
+				<a id="about" href="index.html">About</a>
 
-				<div>
-					<a href="portfolio.html">Portfolio</a>
-				</div>
+				<a id="portfolio" href="portfolio.html">Portfolio</a>
 
-				<div>
-					<a href="contact.html">Contact</a>
-				</div>
+				<a id="contact" href="contact.html">Contact</a>
 			</nav>
 
 		</nav>
 
 		<!-- Porfolio section -->
-		<section>
+		<section class="main-content portfolio">
 
-			<header>
+			<header class="main-header">
 				<h2>Portfolio</h2>
 			</header>
 
 			<a href="#">
-				<img src="assets/images/weird_face.jpeg" alt="My smiling face">
+				<div class="portfolio-images">
+					<img src="assets/images/technics-q-c-640-480-1.jpg" alt="Placeholder 1" width="260px">
+					<div class="portfolio-labels">
+						<p>First Label</p>
+					</div>
+				</div>
 			</a>
 
 			<a href="#">
-				<img src="assets/images/weird_face.jpeg" alt="My smiling face">
+				<div class="portfolio-images">
+					<img src="assets/images/technics-q-c-640-480-10.jpg" alt="Placeholder 2" width="260px">
+					<div class="portfolio-labels">
+						<p>Second Label</p>
+					</div>
+				</div>
 			</a>
 
 			<a href="#">
-				<img src="assets/images/weird_face.jpeg" alt="My smiling face">
+				<div class="portfolio-images">
+					<img src="assets/images/technics-q-c-640-480-4.jpg" alt="Placeholder 3" width="260px">
+					<div class="portfolio-labels">
+						<p>Third Label</p>
+					</div>
+				</div>
 			</a>
 
 			<a href="#">
-				<img src="assets/images/weird_face.jpeg" alt="My smiling face">
+				<div class="portfolio-images">
+					<img src="assets/images/technics-q-c-640-480-5.jpg" alt="Placeholder 4" width="260px">
+					<div class="portfolio-labels">
+						<p>Fourth Label</p>
+					</div>
+				</div>
 			</a>
 
 			<a href="#">
-				<img src="assets/images/weird_face.jpeg" alt="My smiling face">
+				<div class="portfolio-images">
+					<img src="assets/images/technics-q-c-640-480-9.jpg" alt="Placeholder 5" width="260px">
+					<div class="portfolio-labels">
+						<p>Fifth Label</p>
+					</div>
+				</div>
 			</a>
 
 
 		</section>
 
 		<!-- Connect with Me section -->
-		<section>
+		<section class="sidebar">
 
-			<header>
+			<header class="connect-header">
 				<h3>Connect with Me</h3>
 			</header>
 
-			<a href="#">
-				<img src="assets/images/GitHub-Mark-120px-plus.png" alt="GitHub icon">
-			</a>
+			<div class="links-to-me">
+				<a href="https://github.com/cbrenner04" target="_blank">
+					<img src="assets/images/GitHub-Mark-120px-plus.png" alt="GitHub icon" width="50px">
+				</a>
 
-			<a href="#">
-				<img src="assets/images/In-2CRev-128px-R.png" alt="Linkedin icon">
-			</a>
+				<a href="https://www.linkedin.com/in/christopher-brenner-mph-b3a12427" target="_blank">
+					<img src="assets/images/In-2CRev-128px-R.png" alt="Linkedin icon" width="50px">
+				</a>
 
-			<a href="#">
-				<img src="assets/images/so-icon.png" alt="StackOverflow icon">
-			</a>
+				<a href="http://stackoverflow.com/users/6731497/" target="_blank">
+					<img src="assets/images/so-icon.png" alt="StackOverflow icon" width="50px">
+				</a>
+			</div>
 
 		</section>
 

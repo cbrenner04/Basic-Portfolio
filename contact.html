@@ -4,86 +4,81 @@
 	<head>
 
 		<title>Basic-Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 	</head>
 
 	<body>
 	
 		<!-- Navigation Bar. Includes header (brand) and navigation -->
-		<nav>
+		<nav class="navbar">
 
 			<header>
-				<h1>Christopher J Brenner</h1>
+				<h1 id="brand">Christopher J Brenner</h1>
 			</header>
 
-			<nav>
-				<div>
-					<a href="index.html">About</a>
-				</div>
+			<nav class="navigation">
+				<a id="about" href="index.html">About</a>
 
-				<div>
-					<a href="portfolio.html">Portfolio</a>
-				</div>
+				<a id="portfolio" href="portfolio.html">Portfolio</a>
 
-				<div>
-					<a href="contact.html">Contact</a>
-				</div>
+				<a id="contact" href="contact.html">Contact</a>
 			</nav>
 
 		</nav>
 
 		<!-- Contact form section -->
-		<section>
+		<section class="main-content">
 
-			<header>
+			<header class="main-header">
 				<h2>Contact</h2>
 			</header>
 
-			<form>
+			<form class="regular-text">
 
 				<div>
-					<label>Name</label>
-					<input name="name" type="text">
+					<label>Name</label><br>
+					<input name="name" type="text" placeholder="John Smith">
 				</div>
 
 				<div>
-					<label>Email</label>
-					<input name="email" type="email">
+					<label>Email</label><br>
+					<input name="email" type="email" placeholder="example@gmail.com">
 				</div>
 
 				<div>
-					<label>Message</label>
+					<label>Message</label><br>
 					<textarea name="message" rows="5"></textarea>
 				<div>
 
-				<div>
+				<a href="contact.html">
 					<button type="submit">Submit</button>
-				</div>
+				</a>
 
 			</form>
 
 		</section>
 
 		<!-- Connect with Me section -->
-		<section>
+		<section class="sidebar">
 
-			<header>
+			<header class="connect-header">
 				<h3>Connect with Me</h3>
 			</header>
 
-			<a href="#">
-				<img src="assets/images/GitHub-Mark-120px-plus.png" alt="GitHub icon">
-			</a>
+			<div class="links-to-me">
+				<a href="https://github.com/cbrenner04" target="_blank">
+					<img src="assets/images/GitHub-Mark-120px-plus.png" alt="GitHub icon" width="50px">
+				</a>
 
-			<a href="#">
-				<img src="assets/images/In-2CRev-128px-R.png" alt="Linkedin icon">
-			</a>
+				<a href="https://www.linkedin.com/in/christopher-brenner-mph-b3a12427" target="_blank">
+					<img src="assets/images/In-2CRev-128px-R.png" alt="Linkedin icon" width="50px">
+				</a>
 
-			<a href="#">
-				<img src="assets/images/so-icon.png" alt="StackOverflow icon">
-			</a>
-
-		</section>
+				<a href="http://stackoverflow.com/users/6731497/" target="_blank">
+					<img src="assets/images/so-icon.png" alt="StackOverflow icon" width="50px">
+				</a>
+			</div>
 
 		<!-- Footer with Copyright information -->
 		<footer>
