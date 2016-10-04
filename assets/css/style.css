@@ -6,18 +6,34 @@ body {
 	margin-top: 0px;
 	margin-bottom: 0px;
 	margin-left: 100px;
+	display: block;
 }
 
 h1, h2, h3 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
 }
 
 h1 {
+	font-size: 2em;
+	font-weight: bold;
 	color: #ffffff;
 }
 
 h2, h3 {
 	color: #4aaaa5;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+h3 {
+	font-size: 1.3em;
 }
 
 a {
@@ -29,6 +45,13 @@ a:hover {
 	color: #4aaaa5;
 }
 
+p {
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
 .navbar {
 	position: fixed;
 	top: 0;
@@ -36,6 +59,7 @@ a:hover {
 	width: 100%;
 	background-color: #ffffff;
 	overflow: hidden;
+	border: 3px;
 	border-style: none none solid none;
 	border-color: #777777;
 	z-index: 2; /*deals with portfolio images issue*/
@@ -63,11 +87,13 @@ a:hover {
 }
 
 #about {
+	border: 2px;
 	border-color: #dddddd;
 	border-style: none solid none none;
 }
 
 #portfolio {
+	border: 2px;
 	border-color: #dddddd;
 	border-style: none solid none none;
 }
@@ -85,6 +111,7 @@ a:hover {
 
 .main-header {
 	background-color: #ffffff;
+	border: 2px;
 	border-color: #cccccc;
 	border-style: none none solid none;
 }
@@ -92,6 +119,7 @@ a:hover {
 .main-content {
 	box-sizing: border-box;
 	background-color: #ffffff;
+	border: 2px;
 	border-color: #dddddd;
 	border-style: solid;
 	clear: both;
@@ -159,6 +187,7 @@ textarea {
 
 .sidebar {
 	box-sizing: border-box;
+	border: 2px;
 	border-color: #dddddd;
 	border-style: solid;
 	float: right;
@@ -170,6 +199,7 @@ textarea {
 }
 
 .connect-header {
+	border: 2px;
 	border-color: #cccccc;
 	border-style: none none solid none;
 }
