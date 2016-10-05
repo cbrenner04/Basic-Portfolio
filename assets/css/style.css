@@ -103,17 +103,6 @@ p {
 	border-style: none solid none none;
 }
 
-.regular-text {
-	color: #777777;
-	margin-top: 20px;
-}
-
-.my-face {
-	float: left;
-	margin-right: 10px;
-	margin-top: 20px;
-}
-
 .main-header {
 	background-color: #ffffff;
 	border: 2px;
@@ -136,58 +125,9 @@ p {
 	padding: 20px;
 }
 
-input {
-	width: 100%;
-	font-size: 14px;
-    padding: 10px 10px;
-    margin: 10px 0;
-    box-sizing: border-box;
-    border: 1px;
-    border-style: solid;
-    border-color: #cccccc;
-}
-
-textarea {
-	width: 100%;
-	font-size: 14px;
-    padding: 10px 10px;
-    margin: 10px 0;
-    box-sizing: border-box;
-    border: 1px;
-    border-style: solid;
-    border-color: #cccccc;
-}
-
-.portfolio a {
-	color: #ffffff;
-}
-
-.portfolio-images {
-	margin: 20px;
-	float: left;
-	position: relative;
-}
-
-.portfolio-images:hover {
-    -ms-transform: rotate(-10deg);
-    -webkit-transform: rotate(-10deg);
-    -moz-transform: rotate(-10deg);
-    -o-transform: rotate(-10deg);
-    transform: rotate(-10deg);
-}
-
-.portfolio-labels {
-	position: absolute;
-	bottom: 0;
-	height: 50px;
-	background-color: #4aaaa5;
-	text-align: center;
-	width: 100%;
-	margin-bottom: 20px;
-}
-
-.portfolio-labels p {
-	margin-top: 15px;
+.regular-text {
+	color: #777777;
+	margin-top: 20px;
 }
 
 .sidebar {
@@ -225,23 +165,6 @@ textarea {
 
 .links-to-me a {
 	padding: 10px;
-}
-
-button {
-	background-color: #4aaaa5;
-	border: none;
-	color: #ffffff;
-	padding: 10px 20px;
-	text-align: center;
-	font-size: 16px;
-}
-
-button:hover {
-	background-color: #ffffff;
-	color: #4aaaa5;
-	border-color: #4aaaa5;
-	border: 2px;
-	border-style: solid;
 }
 
 footer {
