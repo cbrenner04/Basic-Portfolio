@@ -100,6 +100,7 @@ p {
 .content {
 	padding-top: 25px;
 	padding-bottom: 25px;
+	margin: 0 auto -75px;
 }
 
 .main-header {
