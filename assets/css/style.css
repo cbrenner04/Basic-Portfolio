@@ -1,5 +1,6 @@
 * {
 	margin: 0;
+	box-sizing: border-box;
 }
 
 html {
@@ -111,7 +112,6 @@ p {
 }
 
 .main-content {
-	box-sizing: border-box;
 	background-color: #ffffff;
 	border: 2px;
 	border-color: #dddddd;
@@ -128,7 +128,6 @@ p {
 }
 
 .sidebar {
-	box-sizing: border-box;
 	border: 2px;
 	border-color: #dddddd;
 	border-style: solid;
@@ -146,7 +145,7 @@ p {
 }
 
 .links-to-me {
-	margin-top: 20px;
+	margin: 20px auto;
 }
 
 .links-to-me img:hover {
